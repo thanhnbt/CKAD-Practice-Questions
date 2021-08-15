@@ -7,7 +7,7 @@
 
 ## Questions
 
-<details><summary>List all the namespaces in the cluster</summary>
+<details><summary>List all the namespaces in the cluster. Hiển thị tất cả namespace trong cluster</summary>
 <p>
 
 ```
@@ -18,16 +18,16 @@ kubectl get ns
 </p>
 </details>
 
-<details><summary>List all the pods in all namespaces</summary>
+<details><summary>List all the pods in all namespaces. Danh sách các pod trong tất cả namespace</summary>
 <p>
 
 ```
-kubectl get po --all-namespaces
+kubectl get pod --all-namespaces
 ```
 </p>
 </details>
 
-<details><summary>List all the pods in the particular namespace</summary>
+<details><summary>List all the pods in the particular namespace. Danh sách pod trong 1 namespace cụ thể</summary>
 <p>
 
 ```
@@ -36,7 +36,7 @@ kubectl get po -n <namespace name>
 </p>
 </details>
 
-<details><summary>List all the services in the particular namespace</summary>
+<details><summary>List all the services in the particular namespace. Danh sách service trong một namespace</summary>
 <p>
 
 ```
@@ -62,7 +62,7 @@ kubectl get pods -o=jsonpath="{.items[*]['metadata.name', 'metadata.namespace']}
 kubectl run nginx --image=nginx --restart=Never
 
 // List the pod
-kubectl get po
+kubectl get pod 
 ```
 </p>
 </details>
