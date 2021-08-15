@@ -1,6 +1,6 @@
-# Core Concepts (13%)
+# Core Concepts (13%) Cái khái niệm core
 
-## Practice questions based on these concepts
+## Practice questions based on these concepts Thực hành các câu hỏi dựa vào những concept này
 
 * Understand Kubernetes API Primitives
 * Create and Configure Basic Pods
